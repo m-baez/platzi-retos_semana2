@@ -7,7 +7,16 @@ Menos de 18 años: ¿Sabes hacia dónde dirigir tu futuro? Seguro puedo ayudarte
 
 
 def main():
-    pass
+    print('-'*40)
+    age = int(input('Ingresa tu edad: '))
+
+    if age >= 30:
+        print('\nNunca es tarde de aprender ¿Qué curso tomaremos?')
+    elif age < 30 and age > 18:
+        print('\nEs un momento execelente para impulsar tu carrera')
+    elif age <= 18:
+        print('\n¿Sabes hacia dónde dirigir tu futuro? Seguro puedo ayudarte')
+    print('-'*40)
 
 
 if __name__ == '__main__':
